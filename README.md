@@ -52,12 +52,12 @@ Dynamic edge weight evolution â€” illustrating how the Richardson-number-based Î
 
 ### 4. Spatial Reconstruction: Ground Truth vs. Model Prediction
 
-ST-GNN reconstruction of the full current velocity field (u, v) from 6 sensors.
-Lookback window: 7 days | Prediction horizon: 1 day.
+Full spatial SST reconstruction from **6 sensors** only.
+Lookback window: 7 days | Prediction horizon: 1 day | Model: GNN Dropout + Temporal.
 
-![Prediction vs Ground Truth](result02_prediction_vs_truth.png)
+![Spatial Reconstruction Map](result09a_reconstruction_map.png)
 
-The model captures the dominant flow structures (Tsugaru Warm Current, coastal upwelling zone) without access to the full field during inference.
+The model recovers the dominant thermal structure (Tsugaru Warm Current, coastal mixing zone) without access to the full field during inference. Maximum absolute error concentrated near high-gradient boundary zones.
 
 ---
 
