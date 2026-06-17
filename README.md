@@ -1,7 +1,7 @@
 # Hydro-GIFT: Preliminary Proof of Concept
 ### Flow-Informed Graph Neural Network for Spatial Field Reconstruction
 
-> This repository contains visualizations and results from the preliminary Proof of Concept (PoC) for the **Hydro-GIFT** framework, submitted as part of a JSPS Postdoctoral Fellowship (FY2027) application to Kobe University (Host: Prof. Keisuke Nakayama).
+> This repository contains visualizations and results from the preliminary Proof of Concept (PoC) for the **Hydro-GIFT** framework
 
 ---
 
