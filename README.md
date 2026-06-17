@@ -59,18 +59,8 @@ Lookback window: 7 days | Prediction horizon: 1 day | Model: GNN Dropout + Tempo
 
 The model recovers the dominant thermal structure (Tsugaru Warm Current, coastal mixing zone) without access to the full field during inference. Maximum absolute error concentrated near high-gradient boundary zones.
 
----
 
-### 5. Optimal IoT Sensor Placement via Graph Centrality
 
-Graph-centrality-based sensor placement (Greedy Max-Coverage: 70% Variance + 30% Graph Degree).
-6 nodes selected to maximize spatial reconstruction coverage across 227,000 km².
-
-![Sensor Placement](result04_iot_sensor_placement.png)
-
-This directly demonstrates **Methodological Contribution 4** of the Hydro-GIFT proposal: computationally derived optimal sensor coordinates, reducing IoT deployment cost for national-scale monitoring.
-
----
 
 ## Key Takeaway
 
